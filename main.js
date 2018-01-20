@@ -24,9 +24,8 @@ function positionLoop() {
     //requestAnimationFrame(positionLoop);
     var positions = ctracker.getCurrentPosition();
     // positions = [[x_0, y_0], [x_1,y_1], ... ]
-
     // do something with the positions ...
-    console.log('ha', positions)
+    console.log('positions', positions)
 }
 //positionLoop();
 
